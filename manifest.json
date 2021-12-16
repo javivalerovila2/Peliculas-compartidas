@@ -1,0 +1,16 @@
+{
+    "background_color": "#ffffff",
+    "description": "This app provides students to access their university's library and search for the book they're looking for in advance.",
+    "dir": "ltr",
+    "display": "minimal-ui",
+    "name": "CEUlibrary",
+    "orientation": "any",
+    "scope": "/",
+    "short_name": "CEUlibrary",
+    "start_url": "/",
+    "theme_color": "#ffffff",
+    "categories": [],
+    "screenshots": [],
+    "icons": [],
+    "shortcuts": []
+  }
