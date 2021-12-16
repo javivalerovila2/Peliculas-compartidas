@@ -13,17 +13,22 @@ class UI {
       const div = document.createElement('div');
       div.className = 'animated fadeInRight';
       div.innerHTML = `
-      <div class="book-cards">
-      <div class="book-card">
-       <div class="content-wrapper">
-       <img src="${book.imagePath}" alt="" class="book-card-img">
-       <div class="card-content">
-       <div class="book-name">${book.title}</div>
-        <div class="book-by">${book.author}</div>
-        
-         <div class="book-sum card-sum">"${book._id}"</div>
+      <div class="card m-2">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="${book.imagePath}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8">
+                <div class="card-block px-2">
+                    <h4 class="card-title">${book.title}</h4>
+                    <p class="card-text">${book.author}</p>
+                    <a href="#" class="btn btn-danger delete" _id="${book._id}">X</a>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="card-footer w-100 text-muted">
+          ${format(book.created_at)}
+        </div>
       </div>
       `;
       booksCardContainer.appendChild(div);
