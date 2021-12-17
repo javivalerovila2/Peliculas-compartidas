@@ -1,3 +1,4 @@
+import "./styles/app.css";
 import BookService from './services/BookService';
 const bookService = new BookService();
 
@@ -13,7 +14,7 @@ class UI {
       const div = document.createElement('div');
       div.className = 'animated fadeInRight';
       div.innerHTML = `
-      <div class="card m-2">
+      <div class="card">
         <div class="row no-gutters">
             <div class="col-md-4">
                 <img src="${book.imagePath}" class="img-fluid" alt="">
