@@ -14,7 +14,7 @@ class UI {
       const div = document.createElement('div');
       div.className = 'animated fadeInRight';
       div.innerHTML = `
-      <div class="card">
+      <div class="card1">
         <div class="row no-gutters">
             <div class="col-md-4">
                 <img src="${book.imagePath}" class="img-fluid" alt="">
