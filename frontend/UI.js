@@ -29,6 +29,7 @@ class UI {
         <div class="card-footer w-100 text-muted">
           ${format(book.created_at)}
         </div>
+        <div class="mask flex-center rgba-blue-slight"></div> 
       </div>
       `;
       booksCardContainer.appendChild(div);
