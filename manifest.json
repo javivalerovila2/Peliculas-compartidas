@@ -18,6 +18,11 @@
       "type": "image/ico"
     },
     {
+      "src": "frontend/assets/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/ico"
+    },
+    {
       "src": "frontend/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png"
