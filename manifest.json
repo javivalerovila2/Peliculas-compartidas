@@ -1,6 +1,6 @@
 {
-    "background_color": "#50fbab",
-    "description": "This app provides students to access their university's library and search for the book they're looking for in advance.",
+    "background_color": "#ffffff",
+    "description": "CEULibrary issues from the necessity to hand in a Progresssive Web App, or PWA, as an university assigment in the Mobile and Web Technologies subject in 4 year Business Intelligence at CEU San Pablo University. This PWA provides students to access to their university's library and search for the book they're looking for",
     "dir": "ltr",
     "display": "minimal-ui",
     "name": "CEU Online Library",
@@ -8,7 +8,7 @@
     "scope": "",
     "short_name": "CEUlibrary",
     "start_url": "index.html",
-    "theme_color": "#1d724a",
+    "theme_color": "#91bbf3",
     "categories": [],
     "screenshots": [],
     "icons": [
