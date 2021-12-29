@@ -46,6 +46,13 @@ self.addEventListener('fetch', (event) => {
 });
 
 
+/* 
+SI SE METE TODO ESTO DE ABAJO (DEL 2 AL 7), EN LOCAL YA NO TE DA LA OPCION DE DESCARGAR
+*/
+
+
+
+/*
 
 
 
@@ -294,3 +301,6 @@ workbox.routing.registerRoute(
     ],
   }),
 );
+
+
+*/
