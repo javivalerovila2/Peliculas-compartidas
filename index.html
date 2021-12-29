@@ -6,9 +6,9 @@
   <title>CEU library</title>
   <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/favicon" href="./assets/favicon.ico">
-  <link rel="manifest" href="../manifest.json" />
+  <link rel="stylesheet" href="./frontend/style.css">
+  <link rel="icon" type="image/favicon" href="./frontend/assets/favicon.ico">
+  <link rel="manifest" href="/manifest.json" />
 </head>
 
 <body>
@@ -62,4 +62,10 @@
   </footer>
 </body>
 
+<!-- Cosas de Service Worker -->
+<script type="module">
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
 </html>
