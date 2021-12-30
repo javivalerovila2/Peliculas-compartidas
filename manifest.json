@@ -5,7 +5,7 @@
     "display": "minimal-ui",
     "name": "CEU Online Library",
     "orientation": "landscape",
-    "scope": "",
+    "scope": "/",
     "short_name": "CEUlibrary",
     "start_url": "index.html",
     "theme_color": "#91bbf3",
