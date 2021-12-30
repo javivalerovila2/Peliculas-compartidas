@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CEU library</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+  <link rel="stylesheet" href="./frontend/style.css">
+  <link rel="icon" type="image/favicon" href="./frontend/assets/favicon.ico">
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-dark bg-light">
+    <div class="container">
+      <h1 class="display-4 text-center">
+        <i class="fas fa-book-open text-primary"></i> CEU<span class="text-primary">Book</span>List</h1>
+    </div>
+    <img src="./frontend/assets/logo.png" alt="CEU LOGO" width="10%" height="10%" style="float:left">
+  </nav>
+
+  <div class="container p-4" id="app">
+    <div class="row">
+      <div class="col-md-4">
+
+        <form id="book-form" class="card card-body">
+          <div class="form-group">
+            <input type="text" id="title" class="form-control" placeholder="Book Title" autofocus>
+          </div>
+          <div class="form-group">
+            <input type="text" id="author" class="form-control" placeholder="Author">
+          </div>
+          <div class="form-group">
+            <input type="text" id="isbn" class="form-control" placeholder="ISBN">
+          </div>
+          <div class="input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="image" required>
+                <label class="custom-file-label" for="image" aria-describedby="inputGroupFileAddon02">Choose Image</label>
+              </div>
+            </div>
+          <button type="Submit" class="btn btn-primary">
+            Save Book
+          </button>
+        </form>
+      </div>
+
+      <div class="col-md-8" id="books-cards">
+      </div>
+
+    </div>
+
+  </div>
+  <footer class="footer footer-light bg-light">
+    <div class="container">
+      <p class="display-10 text-center">
+        <i class="fas fa-book-open text-primary"></i> Proyecto Final Tecnologías Desarrollo Web</p>
+    </div>
+  </footer>
+  <!-- Cosas de Service Worker -->
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
+</body>
+
+
+</html>
