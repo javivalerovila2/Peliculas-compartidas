@@ -1,3 +1,9 @@
+import '../frontend/style.css'
+
+import App from '../frontend/app.js';
+import * as serviceWorker from '../pwabuilder-sw';
+
+
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 } 
@@ -38,3 +44,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.listen(app.get('port'), () => {
     console.log(`Server on port ${app.get('port')}`);
 });
+
+if (process.env.NODE_ENV === 'development') {
+    serviceWorker.unregister()
+  } else {
+   serviceWorker.register()
+  }

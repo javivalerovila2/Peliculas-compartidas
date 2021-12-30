@@ -7,7 +7,7 @@
     "orientation": "landscape",
     "scope": "/",
     "short_name": "CEUlibrary",
-    "start_url": "index.html",
+    "start_url": ".",
     "theme_color": "#91bbf3",
     "categories": [],
     "screenshots": [],
