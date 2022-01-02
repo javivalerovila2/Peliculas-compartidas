@@ -7,7 +7,7 @@
     "orientation": "landscape",
     "scope": "/",
     "short_name": "CEUlibrary",
-    "start_url": ".",
+    "start_url": "https://peliculasjaviervalero.herokuapp.com/",
     "theme_color": "#91bbf3",
     "categories": [],
     "screenshots": [],
@@ -26,6 +26,6 @@
       "src": "frontend/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png"
-    }],
+    }], 
     "shortcuts": []
   }

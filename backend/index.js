@@ -1,6 +1,5 @@
 import '../frontend/style.css'
 
-import App from '../frontend/app.js';
 import * as serviceWorker from '../pwabuilder-sw';
 
 
